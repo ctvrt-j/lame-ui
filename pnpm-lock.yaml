@@ -10,7 +10,7 @@ importers:
 
   apps/playground:
     dependencies:
-      lame-ui:
+      '@lamelabs/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       react:
