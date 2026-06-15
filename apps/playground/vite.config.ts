@@ -10,11 +10,11 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: /^lame-ui\/styles\.css$/,
+        find: /^@lamelabs\/ui\/styles\.css$/,
         replacement: path.resolve(dirname, '../../packages/ui/src/tokens/tokens.css'),
       },
       {
-        find: /^lame-ui$/,
+        find: /^@lamelabs\/ui$/,
         replacement: path.resolve(dirname, '../../packages/ui/src/index.ts'),
       },
     ],

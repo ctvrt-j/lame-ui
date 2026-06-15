@@ -1,5 +1,5 @@
-import { Button } from 'lame-ui'
-import 'lame-ui/styles.css'
+import { Button } from '@lamelabs/ui'
+import '@lamelabs/ui/styles.css'
 
 export function App() {
   return (
