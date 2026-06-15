@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: var(--lame-font-family);
+  background-color: var(--lame-color-bg);
+  color: var(--lame-color-fg);
+}
+
+.page {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page h1 {
+  margin-top: 0;
+}
+
+.page section {
+  margin-top: 2rem;
+}
+
+.row {
+  display: flex;
+  gap: var(--lame-space-3);
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,34 @@
+:root {
+  --lame-color-bg: #ffffff;
+  --lame-color-fg: #0a0a0a;
+  --lame-color-muted: #6b7280;
+  --lame-color-border: #e5e7eb;
+
+  --lame-color-primary: #111827;
+  --lame-color-primary-fg: #ffffff;
+  --lame-color-primary-hover: #1f2937;
+
+  --lame-color-secondary-bg: #f3f4f6;
+  --lame-color-secondary-fg: #111827;
+  --lame-color-secondary-hover: #e5e7eb;
+
+  --lame-color-focus: #2563eb;
+
+  --lame-space-1: 0.25rem;
+  --lame-space-2: 0.5rem;
+  --lame-space-3: 0.75rem;
+  --lame-space-4: 1rem;
+  --lame-space-5: 1.25rem;
+  --lame-space-6: 1.5rem;
+
+  --lame-radius-sm: 0.25rem;
+  --lame-radius-md: 0.375rem;
+  --lame-radius-lg: 0.5rem;
+
+  --lame-font-size-sm: 0.875rem;
+  --lame-font-size-md: 1rem;
+  --lame-font-size-lg: 1.125rem;
+
+  --lame-font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

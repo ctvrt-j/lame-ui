@@ -1,0 +1,11 @@
+{
+  "name": "lame-ui-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "pnpm --filter playground dev",
+    "build": "pnpm --filter lame-ui build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
