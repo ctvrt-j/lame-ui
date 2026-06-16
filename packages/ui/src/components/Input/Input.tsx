@@ -6,8 +6,7 @@ import type {
     Radius,
 } from '../../tokens/types'
 
-export type InputType = 'text' | 'number'
-//| 'text' | 'email' | 'password' | 'search' | 'tel' | 'url' | 'number' | 'date' | 'time' | 'datetime-local' | 'month' | 'week' | 'color'
+export type InputType = 'text' | 'email' | 'password' | 'search' | 'tel' | 'url' | 'number' | 'date' | 'time' | 'datetime-local' | 'month' | 'week' | 'color'
 
 export interface InputProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'size' | 'type'> {
     size?: Size

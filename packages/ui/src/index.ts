@@ -14,3 +14,6 @@ export type { InputProps } from './components/Input'
 
 export { Stack } from './components/Stack'
 export type { StackProps } from './components/Stack'
+
+export { Textarea } from './components/Textarea'
+export type { TextareaProps } from './components/Textarea'
