@@ -83,10 +83,10 @@ Per-component sub-tasks (apply to every component below):
   - [ ] Playground example
 
 - [ ] **Box** — minimal div wrapper with padding/margin token props
-  - [ ] `Box.tsx`
-  - [ ] `Box.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Box.tsx`
+  - [x] `Box.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 ### Content primitives
