@@ -5,7 +5,6 @@ import type {
   Space,
   Align,
   Justify,
-  Radius
 } from "../../tokens/types"
 
 export interface GridProps extends HTMLAttributes<HTMLDivElement> {
@@ -14,11 +13,10 @@ export interface GridProps extends HTMLAttributes<HTMLDivElement> {
   padding?: Space
   align?: Align
   justify?: Justify
-  radius?: Radius
 }
 
 export const Grid = forwardRef<HTMLDivElement, GridProps>(function Grid(
-  { columns, gap, padding, align, justify, radius, className, style, ...rest },
+  { columns, gap, padding, align, justify, className, style, ...rest },
   ref,
 ) {
   const classes = [
@@ -27,7 +25,6 @@ export const Grid = forwardRef<HTMLDivElement, GridProps>(function Grid(
     gap !== undefined && styles[`gap-${gap}`],
     align && styles[`align-${align}`],
     justify && styles[`justify-${justify}`],
-    radius && styles[`radius-${radius}`],
     className,
   ]
     .filter(Boolean)

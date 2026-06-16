@@ -1,7 +1,11 @@
-.box {
-  box-sizing: border-box;
+.stack {
+  display: flex;
   min-width: 0;
+  flex-direction: column;
 }
+
+.direction-row { flex-direction: row; }
+.direction-column { flex-direction: column; }
 
 .padding-0 { padding: 0; }
 .padding-1 { padding: var(--lame-space-1); }

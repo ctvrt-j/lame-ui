@@ -29,8 +29,3 @@
 .justify-center { justify-content: center; }
 .justify-end { justify-content: flex-end; }
 .justify-between { justify-content: space-between; }
-
-.radius-none { border-radius: 0; }
-.radius-sm { border-radius: var(--lame-radius-sm); }
-.radius-md { border-radius: var(--lame-radius-md); }
-.radius-lg { border-radius: var(--lame-radius-lg); }

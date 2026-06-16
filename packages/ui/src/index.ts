@@ -8,3 +8,6 @@ export type { ButtonProps } from './components/Button'
 
 export { Grid } from './components/Grid'
 export type { GridProps } from './components/Grid'
+
+export { Stack } from './components/Stack'
+export type { StackProps } from './components/Stack'

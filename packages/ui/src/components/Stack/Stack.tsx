@@ -1,25 +1,28 @@
 import { forwardRef } from "react"
 import type { HTMLAttributes } from "react"
-import styles from './Box.module.css'
-import type { 
+import styles from './Stack.module.css'
+import type {
+  Direction,
   Space,
   Align,
-  Justify, 
+  Justify,
 } from "../../tokens/types"
 
-export interface BoxProps extends HTMLAttributes<HTMLDivElement> {
-  padding?: Space
+export interface StackProps extends HTMLAttributes<HTMLDivElement> {
+  direction?: Direction
   gap?: Space
+  padding?: Space
   align?: Align
   justify?: Justify
 }
 
-export const Box = forwardRef<HTMLDivElement, BoxProps>(function Box(
-  { padding, gap, align, justify, className, ...rest },
+export const Stack = forwardRef<HTMLDivElement, StackProps>(function Stack(
+  { direction, gap, padding, align, justify, className, ...rest },
   ref,
 ) {
   const classes = [
-    styles.box,
+    styles.stack,
+    direction && styles[`direction-${direction}`],
     padding !== undefined && styles[`padding-${padding}`],
     gap !== undefined && styles[`gap-${gap}`],
     align && styles[`align-${align}`],
