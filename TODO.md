@@ -24,10 +24,10 @@ Per-component sub-tasks (apply to every component below):
   - [ ] `loading` state (spinner + disabled)
 
 - [ ] **Input** — text input with `size` and error state
-  - [ ] `Input.tsx` (extends `InputHTMLAttributes<HTMLInputElement>`)
-  - [ ] `Input.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Input.tsx` (extends `InputHTMLAttributes<HTMLInputElement>`)
+  - [x] `Input.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 - [ ] **Textarea**
@@ -69,17 +69,17 @@ Per-component sub-tasks (apply to every component below):
 ### Layout primitives
 
 - [ ] **Stack** — vertical/horizontal flex with `gap` token
-  - [ ] `Stack.tsx` (`direction`, `gap`, `align`, `justify`)
-  - [ ] `Stack.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Stack.tsx` 
+  - [x] `Stack.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 - [ ] **Grid** — CSS grid wrapper with `columns` + `gap` tokens
-  - [ ] `Grid.tsx` (`columns`, `gap`, `rowGap`, `columnGap`)
-  - [ ] `Grid.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Grid.tsx` 
+  - [x] `Grid.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 - [ ] **Box** — minimal div wrapper with padding/margin token props
@@ -146,3 +146,10 @@ Per-component sub-tasks (apply to every component below):
 - [ ] **CHANGELOG.md** — manual entry for v0.1.0 (no Changesets per stack rules)
 
 - [ ] **Tag `v0.1.0`** once the list above is green
+
+
+## v0.2.0
+- [ ] Textarea
+- [ ] Select
+- [ ] Field
+- [ ] ...
