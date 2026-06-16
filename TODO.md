@@ -15,7 +15,7 @@ Per-component sub-tasks (apply to every component below):
 
 ### Form primitives
 
-- [x] **Button** — `variant` (primary/secondary), `size` (sm/md/lg)
+- [ ] **Button** — `variant` (primary/secondary), `size` (sm/md/lg)
   - [x] `Button.tsx`
   - [x] `Button.module.css`
   - [x] `index.ts`
