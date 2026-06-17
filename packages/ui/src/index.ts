@@ -6,6 +6,9 @@ export type { BoxProps } from './components/Box'
 export { Button } from './components/Button'
 export type { ButtonProps } from './components/Button'
 
+export { Checkbox } from './components/Checkbox'
+export type { CheckboxProps } from './components/Checkbox'
+
 export { Grid } from './components/Grid'
 export type { GridProps } from './components/Grid'
 

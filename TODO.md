@@ -31,10 +31,10 @@ Per-component sub-tasks (apply to every component below):
   - [ ] Playground example
 
 - [ ] **Textarea**
-  - [ ] `Textarea.tsx` (extends `TextareaHTMLAttributes`)
-  - [ ] `Textarea.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Textarea.tsx` (extends `TextareaHTMLAttributes`)
+  - [x] `Textarea.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 - [ ] **Label** — pairs with form controls via `htmlFor`
@@ -45,11 +45,12 @@ Per-component sub-tasks (apply to every component below):
   - [ ] Playground example
 
 - [ ] **Checkbox**
-  - [ ] `Checkbox.tsx`
-  - [ ] `Checkbox.module.css` (custom check via `::before`, keep native input for a11y)
-  - [ ] `index.ts`
-  - [ ] Barrel export
-  - [ ] Playground example
+  - [x] `Checkbox.tsx`
+  - [x] `Checkbox.module.css` (custom check via `::before`, keep native input for a11y)
+  - [x] `index.ts`
+  - [x] Barrel export
+  - [x] Playground example
+  - [ ] Final touches
 
 - [ ] **Radio** + **RadioGroup**
   - [ ] `Radio.tsx`
@@ -149,7 +150,7 @@ Per-component sub-tasks (apply to every component below):
 
 
 ## v0.2.0
-- [ ] Textarea
+- [ ] Paper
 - [ ] Select
 - [ ] Field
 - [ ] ...
