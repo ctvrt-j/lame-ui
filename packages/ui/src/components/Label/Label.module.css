@@ -1,0 +1,20 @@
+.label {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--lame-space-1);
+    box-sizing: border-box;
+    font-family: var(--lame-font-family);
+    color: var(--lame-color-fg);
+    line-height: 1.4;
+}
+
+.size-sm { font-size: var(--lame-font-size-sm); }
+.size-md { font-size: var(--lame-font-size-md); }
+.size-lg { font-size: var(--lame-font-size-lg); }
+
+.required { color: var(--lame-color-danger); }
+
+.disabled {
+    color: var(--lame-color-muted);
+    cursor: not-allowed;
+}

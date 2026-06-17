@@ -15,6 +15,9 @@ export type { GridProps } from './components/Grid'
 export { Input } from './components/Input'
 export type { InputProps } from './components/Input'
 
+export { Label } from './components/Label'
+export type { LabelProps } from './components/Label'
+
 export { Stack } from './components/Stack'
 export type { StackProps } from './components/Stack'
 
