@@ -38,10 +38,10 @@ Per-component sub-tasks (apply to every component below):
   - [ ] Playground example
 
 - [ ] **Label** — pairs with form controls via `htmlFor`
-  - [ ] `Label.tsx`
-  - [ ] `Label.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Label.tsx`
+  - [x] `Label.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 - [ ] **Checkbox**

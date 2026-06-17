@@ -21,5 +21,8 @@ export type { LabelProps } from './components/Label'
 export { Stack } from './components/Stack'
 export type { StackProps } from './components/Stack'
 
+export { Text } from './components/Text'
+export type { TextProps } from './components/Text'
+
 export { Textarea } from './components/Textarea'
 export type { TextareaProps } from './components/Textarea'
