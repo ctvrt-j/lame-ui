@@ -7,3 +7,4 @@ export type Radius = 'none' | 'sm' | 'md' | 'lg'
 export type Size = 'sm' | 'md' | 'lg'
 export type TextTone = 'default' | 'muted' | 'danger'
 export type TextWeight = 'regular' | 'medium' | 'bold'
+export type Elevation = 0 | 1 | 2 | 3

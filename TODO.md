@@ -107,10 +107,17 @@ Per-component sub-tasks (apply to every component below):
   - [ ] Playground example
 
 - [ ] **Card** — surface container
-  - [ ] `Card.tsx`
-  - [ ] `Card.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Card.tsx`
+  - [x] `Card.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
+  - [ ] Playground example
+
+- [ ] **Paper** — surface container
+  - [x] `Paper.tsx`
+  - [x] `Paper.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 - [ ] **Badge** — small status pill
@@ -150,7 +157,6 @@ Per-component sub-tasks (apply to every component below):
 
 
 ## v0.2.0
-- [ ] Paper
 - [ ] Select
 - [ ] Field
 - [ ] ...

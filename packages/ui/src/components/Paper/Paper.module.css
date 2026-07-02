@@ -1,0 +1,15 @@
+.paper {
+  background: var(--lame-color-bg);
+  color: var(--lame-color-fg);
+  font-family: var(--lame-font-family);
+}
+
+.elevation-0 { border: 1px solid var(--lame-color-border); }
+.elevation-1 { box-shadow: var(--lame-shadow-sm); }
+.elevation-2 { box-shadow: var(--lame-shadow-md); }
+.elevation-3 { box-shadow: var(--lame-shadow-lg); }
+
+.radius-none { border-radius: 0; }
+.radius-sm { border-radius: var(--lame-radius-sm); }
+.radius-md { border-radius: var(--lame-radius-md); }
+.radius-lg { border-radius: var(--lame-radius-lg); }
