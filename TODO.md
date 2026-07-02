@@ -93,17 +93,17 @@ Per-component sub-tasks (apply to every component below):
 ### Content primitives
 
 - [ ] **Text** — `size`, `weight`, `tone` (muted/default/danger)
-  - [ ] `Text.tsx`
-  - [ ] `Text.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Text.tsx`
+  - [x] `Text.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 - [ ] **Heading** — `level` 1–6, decoupled from visual size
-  - [ ] `Heading.tsx`
-  - [ ] `Heading.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Heading.tsx`
+  - [x] `Heading.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 - [ ] **Card** — surface container

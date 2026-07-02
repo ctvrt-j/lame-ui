@@ -1,0 +1,18 @@
+.heading {
+    margin: 0;
+    font-family: var(--lame-font-family);
+    color: var(--lame-color-fg);
+    line-height: 1.5;
+}
+
+.size-sm { font-size: var(--lame-font-size-sm); }
+.size-md { font-size: var(--lame-font-size-md); }
+.size-lg { font-size: var(--lame-font-size-lg); }
+
+.tone-default { color: var(--lame-color-fg); }
+.tone-muted { color: var(--lame-color-muted); }
+.tone-danger { color: var(--lame-color-danger); }
+
+.weight-regular { font-weight: 400; }
+.weight-medium { font-weight: 500; }
+.weight-bold { font-weight: 700; }

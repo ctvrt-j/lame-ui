@@ -12,6 +12,9 @@ export type { CheckboxProps } from './components/Checkbox'
 export { Grid } from './components/Grid'
 export type { GridProps } from './components/Grid'
 
+export { Heading } from './components/Heading'
+export type { HeadingProps } from './components/Heading' 
+
 export { Input } from './components/Input'
 export type { InputProps } from './components/Input'
 
