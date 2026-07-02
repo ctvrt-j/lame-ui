@@ -42,9 +42,10 @@
 .resize-both { resize: both; }
 
 .textarea::placeholder { color: var(--lame-color-muted); }
-.textarea:focus-visible { 
-    outline: 2px solid var(--lame-color-focus); 
-    outline-offset: 1px; 
+.textarea:focus-visible {
+    outline: 2px solid var(--lame-color-focus);
+    outline-offset: 1px;
     border-color: transparent;
 }
+.textarea.invalid:focus-visible { border-color: var(--lame-color-danger); }
 .textarea:disabled { opacity: 0.5; cursor: not-allowed; }

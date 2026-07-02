@@ -1,13 +1,15 @@
 import { forwardRef } from "react"
 import type { HTMLAttributes } from "react"
 import styles from './Box.module.css'
-import type { 
+import type {
   Space,
   Align,
-  Justify, 
+  Justify,
+  Display,
 } from "../../tokens/types"
 
 export interface BoxProps extends HTMLAttributes<HTMLDivElement> {
+  display?: Display
   padding?: Space
   gap?: Space
   align?: Align
@@ -15,11 +17,12 @@ export interface BoxProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 export const Box = forwardRef<HTMLDivElement, BoxProps>(function Box(
-  { padding, gap, align, justify, className, ...rest },
+  { display, padding, gap, align, justify, className, ...rest },
   ref,
 ) {
   const classes = [
     styles.box,
+    display && styles[`display-${display}`],
     padding !== undefined && styles[`padding-${padding}`],
     gap !== undefined && styles[`gap-${gap}`],
     align && styles[`align-${align}`],

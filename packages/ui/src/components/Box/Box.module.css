@@ -3,6 +3,12 @@
   min-width: 0;
 }
 
+.display-block { display: block; }
+.display-inline-block { display: inline-block; }
+.display-flex { display: flex; }
+.display-inline-flex { display: inline-flex; }
+.display-grid { display: grid; }
+
 .padding-0 { padding: 0; }
 .padding-1 { padding: var(--lame-space-1); }
 .padding-2 { padding: var(--lame-space-2); }

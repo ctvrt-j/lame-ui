@@ -19,6 +19,10 @@ body {
   margin-top: 2rem;
 }
 
+.page section > * + * {
+  margin-top: var(--lame-space-3);
+}
+
 .row {
   display: flex;
   gap: var(--lame-space-3);

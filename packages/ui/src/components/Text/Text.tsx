@@ -1,7 +1,7 @@
 import { forwardRef } from "react"
 import type { HTMLAttributes } from "react"
 import styles from './Text.module.css'
-import {
+import type {
     Size,
     TextTone,
     TextWeight,

@@ -1,4 +1,6 @@
 .input {
+    box-sizing: border-box;
+    min-width: 0;
     border: 1px solid var(--lame-color-border);
     background: var(--lame-color-bg);
     color: var(--lame-color-fg);
@@ -33,9 +35,10 @@
 .invalid { border-color: var(--lame-color-danger); }
 
 .input::placeholder { color: var(--lame-color-muted); }
-.input:focus-visible { 
-    outline: 2px solid var(--lame-color-focus); 
-    outline-offset: 1px; 
+.input:focus-visible {
+    outline: 2px solid var(--lame-color-focus);
+    outline-offset: 1px;
     border-color: transparent;
 }
+.input.invalid:focus-visible { border-color: var(--lame-color-danger); }
 .input:disabled { opacity: 0.5; cursor: not-allowed; }

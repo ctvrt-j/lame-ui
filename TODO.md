@@ -23,26 +23,26 @@ Per-component sub-tasks (apply to every component below):
   - [ ] Add `ghost` and `danger` variants
   - [ ] `loading` state (spinner + disabled)
 
-- [ ] **Input** — text input with `size` and error state
+- [x] **Input** — text input with `size` and error state
   - [x] `Input.tsx` (extends `InputHTMLAttributes<HTMLInputElement>`)
   - [x] `Input.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
-- [ ] **Textarea**
+- [x] **Textarea**
   - [x] `Textarea.tsx` (extends `TextareaHTMLAttributes`)
   - [x] `Textarea.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
-- [ ] **Label** — pairs with form controls via `htmlFor`
+- [x] **Label** — pairs with form controls via `htmlFor`
   - [x] `Label.tsx`
   - [x] `Label.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
 - [ ] **Checkbox**
   - [x] `Checkbox.tsx`
@@ -52,80 +52,80 @@ Per-component sub-tasks (apply to every component below):
   - [x] Playground example
   - [ ] Final touches
 
-- [ ] **Radio** + **RadioGroup**
+- [x] **Radio** + **RadioGroup**
   - [x] `Radio.tsx`
   - [x] `RadioGroup.tsx` (context for `name` + selected value)
   - [x] `Radio.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
-- [ ] **Switch** — controlled toggle
+- [x] **Switch** — controlled toggle
   - [x] `Switch.tsx`
   - [x] `Switch.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
 ### Layout primitives
 
-- [ ] **Stack** — vertical/horizontal flex with `gap` token
+- [x] **Stack** — vertical/horizontal flex with `gap` token
   - [x] `Stack.tsx` 
   - [x] `Stack.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
-- [ ] **Grid** — CSS grid wrapper with `columns` + `gap` tokens
+- [x] **Grid** — CSS grid wrapper with `columns` + `gap` tokens
   - [x] `Grid.tsx` 
   - [x] `Grid.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
-- [ ] **Box** — minimal div wrapper with padding/margin token props
+- [x] **Box** — minimal div wrapper with display/padding/gap token props
   - [x] `Box.tsx`
   - [x] `Box.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
 ### Content primitives
 
-- [ ] **Text** — `size`, `weight`, `tone` (muted/default/danger)
+- [x] **Text** — `size`, `weight`, `tone` (muted/default/danger)
   - [x] `Text.tsx`
   - [x] `Text.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
-- [ ] **Heading** — `level` 1–6, decoupled from visual size
+- [x] **Heading** — `level` 1–6, decoupled from visual size
   - [x] `Heading.tsx`
   - [x] `Heading.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
-- [ ] **Card** — surface container
+- [x] **Card** — surface container
   - [x] `Card.tsx`
   - [x] `Card.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
-- [ ] **Paper** — surface container
+- [x] **Paper** — surface container
   - [x] `Paper.tsx`
   - [x] `Paper.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
-- [ ] **Badge** — small status pill
+- [x] **Badge** — small status pill
   - [x] `Badge.tsx` (`tone`: neutral/success/warning/danger)
   - [x] `Badge.module.css`
   - [x] `index.ts`
   - [x] Barrel export
-  - [ ] Playground example
+  - [x] Playground example
 
 ---
 
