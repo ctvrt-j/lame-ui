@@ -1,5 +1,8 @@
 import './tokens/tokens.css'
 
+export { Badge } from './components/Badge'
+export type { BadgeProps } from './components/Badge'
+
 export { Box } from './components/Box'
 export type { BoxProps } from './components/Box'
 

@@ -13,3 +13,4 @@
 .radius-sm { border-radius: var(--lame-radius-sm); }
 .radius-md { border-radius: var(--lame-radius-md); }
 .radius-lg { border-radius: var(--lame-radius-lg); }
+.radius-full { border-radius: var(--lame-radius-full); }

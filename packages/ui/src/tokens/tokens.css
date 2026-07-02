@@ -13,7 +13,18 @@
   --lame-color-secondary-hover: #e5e7eb;
 
   --lame-color-focus: #2563eb;
+
+  --lame-color-success: #16a34a;
+  --lame-color-success-bg: #dcfce7;
+  --lame-color-success-fg: #166534;
+
+  --lame-color-warning: #d97706;
+  --lame-color-warning-bg: #fef3c7;
+  --lame-color-warning-fg: #92400e;
+
   --lame-color-danger: #dc2626;
+  --lame-color-danger-bg: #fee2e2;
+  --lame-color-danger-fg: #991b1b;
 
   --lame-space-1: 0.25rem;
   --lame-space-2: 0.5rem;
@@ -25,6 +36,7 @@
   --lame-radius-sm: 0.25rem;
   --lame-radius-md: 0.375rem;
   --lame-radius-lg: 0.5rem;
+  --lame-radius-full: 9999px;
 
   --lame-font-size-sm: 0.875rem;
   --lame-font-size-md: 1rem;
