@@ -53,18 +53,18 @@ Per-component sub-tasks (apply to every component below):
   - [ ] Final touches
 
 - [ ] **Radio** + **RadioGroup**
-  - [ ] `Radio.tsx`
-  - [ ] `RadioGroup.tsx` (context for `name` + selected value)
-  - [ ] `Radio.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Radio.tsx`
+  - [x] `RadioGroup.tsx` (context for `name` + selected value)
+  - [x] `Radio.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 - [ ] **Switch** — controlled toggle
-  - [ ] `Switch.tsx`
-  - [ ] `Switch.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Switch.tsx`
+  - [x] `Switch.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 ### Layout primitives

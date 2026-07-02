@@ -30,6 +30,9 @@ export type { LabelProps } from './components/Label'
 export { Paper } from './components/Paper'
 export type { PaperProps } from './components/Paper'
 
+export { Radio, RadioGroup } from './components/Radio'
+export type { RadioProps, RadioGroupProps } from './components/Radio'
+
 export { Stack } from './components/Stack'
 export type { StackProps } from './components/Stack'
 
