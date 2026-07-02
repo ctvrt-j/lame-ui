@@ -33,6 +33,9 @@ export type { PaperProps } from './components/Paper'
 export { Stack } from './components/Stack'
 export type { StackProps } from './components/Stack'
 
+export { Switch } from './components/Switch'
+export type { SwitchProps } from './components/Switch'
+
 export { Text } from './components/Text'
 export type { TextProps } from './components/Text'
 

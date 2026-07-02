@@ -121,10 +121,10 @@ Per-component sub-tasks (apply to every component below):
   - [ ] Playground example
 
 - [ ] **Badge** — small status pill
-  - [ ] `Badge.tsx` (`tone`: neutral/success/warning/danger)
-  - [ ] `Badge.module.css`
-  - [ ] `index.ts`
-  - [ ] Barrel export
+  - [x] `Badge.tsx` (`tone`: neutral/success/warning/danger)
+  - [x] `Badge.module.css`
+  - [x] `index.ts`
+  - [x] Barrel export
   - [ ] Playground example
 
 ---
@@ -159,4 +159,6 @@ Per-component sub-tasks (apply to every component below):
 ## v0.2.0
 - [ ] Select
 - [ ] Field
+- [ ] Spinner
+- [ ] Loading bar
 - [ ] ...
